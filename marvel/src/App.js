@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card.jsx"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Card 
+   image="https://n1s1.hsmedia.ru/06/d3/73/06d37321618034ec5f2a65b09c8576e3/547x397_0xac120002_45567661540468871.jpg"
+   name="Супермен"
+   superpowers="непробиваемость, суперсила, полёт, самоисцеление, суперзрение и суперслух, классный костюм"
+   />
+
+       <Card 
+   image="https://n1s1.hsmedia.ru/41/8f/05/418f050c767eeca8854b328914c7bccc/547x397_0xac120002_20106541761540468871.jpg"
+   name="Captain America"
+   superpowers="сила, выносливость, бессмертие, быстрая регенерация, мастерство скрытности и боя"
+   />
+
+   <Card 
+   image="https://n1s1.hsmedia.ru/87/ed/c5/87edc525d8813c7b2899e04a4e562fe9/547x397_0xac120002_6444132261540468872.jpg"
+   name="Чудо-женщина"
+   superpowers="сверхчеловеческая сила искорость, выносливость, полёт"
+   />
+
+<Card 
+   image="https://n1s1.hsmedia.ru/e0/2b/55/e02b55b147eeaff9b3fe6bdbb36ff9ea/547x397_0xac120002_744074131540468872.jpg"
+   name="Черная вдова"
+   superpowers="пик человеческого физического потенциала, замедленное старение, знание многих языков"
+   />
+
+<Card 
+   image="https://n1s1.hsmedia.ru/37/39/74/373974effcc7ccd093d849e8fa062091/547x397_0xac120002_9548247751540468871.jpg"
+   name="Спайдер-мен/Человек-паук"
+   superpowers="сверхчеловеческие рефлексы, «паучье чутьё», способность прилепляться к твердым поверхностям, производство паутины"
+   />
+
+<Card 
+   image="https://n1s1.hsmedia.ru/34/93/39/3493392c94fc2ae0552ef9c7e87f2617/728x382_1_cc2a743fd686b7b2e256c062966bb465@1034x543_0xac120002_2692921231540468872.jpg"
+   name="Дэдпул"
+   superpowers="высокий болевой порог, регенерация и бессмертие, сверхчеловеческая иммунная система"
+   />
+
     </div>
+  
   );
 }
 
